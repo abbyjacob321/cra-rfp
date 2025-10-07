@@ -1,0 +1,19 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Use stock photos from unsplash where appropriate, only valid URLs you know exist. Do not download the images, only link to them in image tags.
+
+Before making changes to any line of code, be sure to not impact existing functionality.
+
+Create a context.md file to track the purpose of the overall site and the functionality of a specific section.  Update as needed.
+
+When receiving new feature requests, please plan the feature request and create a planning.md file to outline all the steps and mark which steps are complete as they are completed.
+
+Please refer to context.md and planning.md prior to executing any tasks.
+
+When errors pop up, record the error context in error.md and track the proposed solution.  If errors reoccur, please refer to the error.md file to track previous attempts at solving the error, and try different pathways towards fixing the problem.
+
+Don't assume the prompter is correct - validate everything and push back as necessary.

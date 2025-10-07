@@ -1,0 +1,4 @@
+curl -sS -D - \
+  -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ6Z3F1bHFqZXN1bnJ0Y3Jjb3RhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk0MjQxODIsImV4cCI6MjA3NTAwMDE4Mn0.4B95MxO2Fjmvm64CaBJHYugkQBPS2xgcVgGNOGQFqXM" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ6Z3F1bHFqZXN1bnJ0Y3Jjb3RhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk0MjQxODIsImV4cCI6MjA3NTAwMDE4Mn0.4B95MxO2Fjmvm64CaBJHYugkQBPS2xgcVgGNOGQFqXM" \
+  "https://fzgqulqjesunrtcrcota.supabase.co/rest/v1/rfps?select=*&visibility=eq.public&status=in.(active,closed)&order=closing_date.asc&limit=8"
